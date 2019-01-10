@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="btnSalva" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnChiud" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblDbIndirizzo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      <Component id="txtSQLIndirizzo" min="-2" pref="169" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblParametriSQL" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblParametriAuto" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblDbUsername" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDbPassword" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblIpAuto" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPortaAuto" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtSQLUsername" alignment="0" pref="169" max="32767" attributes="0"/>
+                          <Component id="txtSQLPassword" alignment="0" pref="169" max="32767" attributes="0"/>
+                          <Component id="txtIpAuto" max="32767" attributes="0"/>
+                          <Component id="txtPortaAuto" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="109" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblParametriSQL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtSQLIndirizzo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblDbIndirizzo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDbUsername" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSQLUsername" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDbPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSQLPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="53" max="32767" attributes="0"/>
+              <Component id="lblParametriAuto" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblIpAuto" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtIpAuto" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblPortaAuto" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPortaAuto" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnChiud" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnSalva" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JPasswordField" name="txtSQLPassword">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblParametriSQL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parametri connessione server SQL:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDbUsername">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DBUsername:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDbPassword">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DBPassword:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSQLUsername">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSQLIndirizzo">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDbIndirizzo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Indirizzo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIpAuto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="IP:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIpAuto">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPortaAuto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Porta:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPortaAuto">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblParametriAuto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parametri connessione server Auto:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnChiud">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Chiudi"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnChiudActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSalva">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salva"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalvaActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Preferenze>
+<ServerSQL>
+<Indirizzo>192.168.1.200</Indirizzo>
+<Username>root</Username>
+<Password/>
+</ServerSQL>
+<ServerAuto>
+<Indirizzo>localhost</Indirizzo>
+<PortaAuto>11111</PortaAuto>
+</ServerAuto>
+</Preferenze>
